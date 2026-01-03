@@ -1,33 +1,51 @@
-📘 **Text Mining Analyse Incidentbeschrijvingen (Wire Solutions)**
+# Text Mining Analyse – Wire Solutions
 
-Deze repository bevat de Python-code, dataset en notebook die zijn gebruikt voor de text mining-analyse binnen het afstudeeronderzoek voor Wire Solutions.
+Deze repository bevat het Jupyter Notebook dat is gebruikt voor de
+text mining-analyse binnen het afstudeeronderzoek voor Wire Solutions.
+De analyse is uitgevoerd ter ondersteuning van het onderzoeksrapport
+en dient als inhoudelijke verdieping van de servicedeskanalyse.
 
-🎯 **Doel van de analyse**
+De focus ligt op het verkennen van tekstuele patronen in
+incidentbeschrijvingen per behandelgroep.
 
-Tijdens het hoofdonderzoek is onderzocht hoe incidenten binnen verschillende behandelgroepen inhoudelijk van elkaar verschillen.
-Met behulp van eenvoudige text mining (woordfrequentie & TF-IDF) is bepaald welke thema’s kenmerkend zijn per categorie.
+## Doel van de analyse
+
+Het doel van deze analyse is om inzicht te krijgen in inhoudelijke
+verschillen tussen incidenten binnen verschillende behandelgroepen.
+Met behulp van eenvoudige text mining-technieken wordt onderzocht
+welke woorden en thema’s kenmerkend zijn per categorie.
 
 De resultaten worden gebruikt om:
-- de categorisatie van incidentgroepen te valideren,
-- trends en doorlooptijden beter te interpreteren,
-- en structurele verbetermogelijkheden te identificeren (bijv. 2e → 1e lijn).
+- bestaande incidentcategorieën beter te duiden;
+- verschillen in doorlooptijd en werkdruk te interpreteren;
+- bevindingen uit de kwantitatieve analyses te verdiepen.
 
-🧪 **Inhoud van de notebook**
+De analyse is verkennend van aard en vormt geen zelfstandig
+beslissingsmodel.
 
-De notebook bevat onder andere:
-- Data-inladen en opschonen
-- Verwijderen van standaard- én domeinspecifieke stopwoorden
-- Woordfrequentieanalyse per incidentcategorie
-- TF-IDF hottopics per incidentcategorie
-- Interpretatie van thema’s per behandelgroep
+---
 
-De code draait met:
-pip install pandas numpy scikit-learn nltk
+## Inhoud van het notebook
 
-🔒 **Privacy & datagebruik**
+Het notebook bevat onder andere:
+- inladen en opschonen van incidentdata;
+- verwijderen van standaard en domeinspecifieke stopwoorden;
+- woordfrequentieanalyse per incidentcategorie;
+- TF-IDF-analyse voor het identificeren van kenmerkende termen;
+- inhoudelijke interpretatie van resultaten per behandelgroep.
 
-De dataset bevat geen persoonsgegevens en is geanonimiseerd voor onderzoeksdoeleinden.
+---
 
-🧑‍💻 **Auteur**
+## Dataset
 
-Steffan Boer – Bootcamp Data Engineer – 2025
+De gebruikte dataset is geanonimiseerd en niet opgenomen in deze
+repository in verband met vertrouwelijkheid. Het notebook toont
+de volledige analysemethodiek en kan worden uitgevoerd met een
+vergelijkbare datasetstructuur.
+
+---
+
+## Technische omgeving
+
+De analyse is uitgevoerd met Python en gangbare bibliotheken,
+waaronder pandas, scikit-learn en nltk.
